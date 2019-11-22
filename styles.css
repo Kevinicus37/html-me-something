@@ -1,0 +1,155 @@
+.main {
+    margin-left: 13%;
+    padding-top: 10px;
+    width: 87%;
+    background-color: #383d44
+}
+
+.navlist {
+    list-style-type:none;
+    padding:0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 13%;
+    height: 60%;
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+
+.navlist li a{
+    display:block;
+    color: #000;
+    padding:16px;
+    text-decoration: none;
+}
+
+.navlist li a:hover {
+    background-color:#888888;
+    color:white;
+}
+
+.links {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 13%;
+    height: 40%;
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+
+.links ul {
+    list-style-type:none;
+    position: absolute;
+    left:-40px;
+}
+.outside_links {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.outside_links:hover{
+    background-color:#888888;
+    color:white;
+}
+
+.headers {
+    font-family: "Game of Thrones Regular", serif;
+    text-decoration: underline;
+}
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.indent {
+    padding-left: 45px;
+}
+
+.anchor {
+    display:block;
+    padding-top: 120px;
+    margin-top: -120px;
+}
+
+.text {
+    text-align: left;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.3rem;
+}
+
+.section_end {
+    margin-bottom: 50px;
+}
+
+#header {
+    background: #287091;
+    display:block;
+    margin-left:13%;
+    position: fixed;
+    text-align: center;
+    color:white;
+    width: 87%;
+    height: 120px;
+    z-index: 100;
+}
+
+#hodor {
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-family: "GameOfThrones", serif;
+
+}
+
+#footer {
+    background:#287091;
+    display:block;
+    bottom: 0;
+    margin-left: 13%;
+    padding-top:10px;
+    text-align:center;
+    color:white;
+    width:87%;
+    height: 100px;
+}
+
+#main_article {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-family: Arial, serif;
+}
+
+
+#mail {
+    text-decoration:none;
+    color: black;
+}
+
+#label {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: #287091;
+}
+
+@font-face {
+    font-family: 'GameOfThrones';
+    src: local("game of thrones");
+    font-style: normal;
+}
