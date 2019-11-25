@@ -152,6 +152,6 @@
 
 @font-face {
     font-family: 'GameOfThrones';
-    src: local("game of thrones");
+    src: url("fonts/game of thrones.ttf") format('truetype');
     font-style: normal;
 }
